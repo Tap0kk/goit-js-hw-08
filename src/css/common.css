@@ -16,3 +16,48 @@ img {
   display: block;
   max-width: 100%;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.list {
+  margin: 0;
+  padding-top: 200px;
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: rgba(218, 193, 193, 0.596);
+  border: 1px solid rgba(218, 193, 193, 0.596);
+  border-radius: 25px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  transition: transform linear 250ms, background-color linear 250ms,
+    color linear 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.03);
+  color: #ffffff;
+  background-color: #000000;
+  border: #ffffff;
+  box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.2),
+    10px 10px 10px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
